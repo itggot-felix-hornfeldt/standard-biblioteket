@@ -1,3 +1,18 @@
+# Public: sorts an array using recursion.
+# 
+# arr - holds the input array.
+# output - outputs the sorted list.
+# i - index holder.
+# smaller - holds the numbers less than pivot.
+# bigger - holds the numbers bigger than pivot.
+# pivot - start number.
+# 
+# Examples
+# 
+#   quick([1,3,5,2,4])
+#   # => [1,2,3,4,5]
+#
+# Returns the sorted array.
 def quick(arr)
     if arr.length == 0
         return []

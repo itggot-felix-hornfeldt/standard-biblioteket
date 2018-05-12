@@ -1,3 +1,14 @@
+# Public - counts the number of times a char is in str
+#
+# str = holds string
+# char = holds char
+# index = index holder
+#
+# Example:
+#
+# count("hello", "l")
+# #=> 2
+
 def count(str, char)
     return "You need to write something" if str.length == 0
     index = 0

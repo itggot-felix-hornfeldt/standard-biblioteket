@@ -1,3 +1,14 @@
+# Public - removes a char
+#
+# str = holds string
+# char = holds the char that is to be removed from string
+# i = index holder
+#
+# Example:
+#
+# remove("rent", "r")
+# # => "ent"
+
 def remove(str, char)
     output = ""
     i = 0
