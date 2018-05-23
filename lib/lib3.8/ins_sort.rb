@@ -7,8 +7,6 @@ def ins_sort(arr)
         else
             pivot = arr[i]
             z = output.length - 1
-            p output
-            p z
             while z >= 0 
                 if pivot > output[z]
                     output.insert((z+1), pivot)
